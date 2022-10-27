@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Registration Page</title>
+</head>
+<body>
+  <form  style="border:1px solid #ccc">
+    <div class="container">
+      <h1>Registration</h1>
+      <hr>
+      
+        <label for="fname">First Name:</label>
+      <input type="text" placeholder="First Name" name="fname" required>
+      <label for="fname">Last Name:</label>
+      <input type="text" placeholder="Last Name" name="Lname" required>
+      
+      
+        <label for="email"><b>Email:</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      
+     
+        <label for="Tel">Tel:</label>
+      <input type="tel" name="Tel" id="" placeholder="+234">
+      <label for="">Date of Birth</label>
+      <input type="date" name="date" id="">
+    
+      <div class="div-1">
+         <div class="gender">
+        <label for="">Gender</label>
+        <select name="gender" id="gender">
+          <option value="Male">Male</option>
+          <option value="Female">Female</option>
+        </select>
+          </div>
+     <div class="color">
+        <label for="">Favourite color</label>
+      <input type="color" name="color" id="" style="width:50px ;">
+      </div>
+      </div>
+        <div ><button type="submit" class="signupbtn" id="btn-1">Sign Up <a href=""></a></button></div>
+        <div class="login">
+          <p>Don't have account </p>
+          <a href="signin.html">login</a>
+        </div>
+    </div>
+  </form>
+</body>
+</html>

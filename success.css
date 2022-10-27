@@ -1,0 +1,50 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  Font-family: sans-serif;
+}
+
+Body {
+  Text-align: center;
+  Padding: 40px 0;
+  Background: #ffffff;
+}
+
+H1 {
+  Color: #e0432e;
+  Font-weight: 900;
+  Font-size: 40px;
+  Margin-bottom: 10px;
+}
+
+P {
+  Color: #404F5E;
+  Font-size: 20px;
+  Margin: 0;
+}
+
+I {
+  Color: #000000;
+  Font-size: 120px;
+  Line-height: 200px;
+  Margin-left: -15px;
+}
+
+.card {
+ background-color: #c3d1df;
+  Padding: 60px;
+  Border-radius: 50px;
+  Box-shadow: 0 2px 3px #314050;
+  Display: inline-block;
+  Margin: 0 auto;
+}
+
+.sub-card{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: #F8FAF5;
+
+}
